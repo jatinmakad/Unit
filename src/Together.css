@@ -1,0 +1,27 @@
+.together{
+    display: flex;
+    width: 1300px;
+    margin: 0 auto;
+    height: 70%;
+    justify-content: space-around;
+    align-items: center;
+}
+.ther img{
+    width: 85%;
+    border-radius: 20px;
+}
+.toge{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 500px;
+    height: 300px;
+}
+.toge p{
+    color: gray;
+    font-size: 20px;
+}
+.toge h1{
+    font-size: 40px;
+}

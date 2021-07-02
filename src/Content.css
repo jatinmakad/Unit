@@ -1,0 +1,35 @@
+.cont {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 1300px;
+  margin: 0 auto;
+}
+.cont img{
+  width: 40%;
+  object-fit: contain;
+}
+.text{
+  width: 50%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  justify-content: center;
+}
+.text h1{
+  font-size: 45px;
+  padding-bottom: 10px;
+}
+.text p{
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.btn .btn1{
+margin-right: 25px;
+background-color: #2196F3;
+}
+.btn .btn2{
+  border: 2px solid #2196F3;
+}

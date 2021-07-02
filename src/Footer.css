@@ -1,0 +1,62 @@
+.footer{
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    height: fit-content;
+}
+.before{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+margin-bottom: 1rem;
+}
+
+.language{
+    display: flex;
+   flex-wrap: wrap;
+}
+.lang h1{
+    margin-bottom: 10px;
+}
+.language h3{
+    color: gray;
+    padding-right: 12px;
+}
+.second h1{
+   margin-bottom: 10px;
+}
+.ic  .MuiSvgIcon-root{
+    color: gray;
+    padding-right: 10px;
+}
+.ic .MuiSvgIcon-root:hover{
+    color: #fff;
+}
+
+.after{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+}
+.after ul li{
+    list-style: none;
+    color: gray;
+    font-size: 18px;
+}
+.after ul li:first-child{
+    color: #fff;
+    margin-bottom: 12px;
+}
+.line{
+    width: 1150px;
+    height: 2px;
+    background-color: gray;
+    margin: 0 auto;
+
+}

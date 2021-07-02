@@ -1,0 +1,9 @@
+.cardContent{
+    display: flex;
+    width: 1250px;
+    margin: 0 auto;
+    height: 350px;
+}
+.cardContent .ca{
+    border-right: 1px solid red;
+}

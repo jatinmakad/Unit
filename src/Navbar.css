@@ -1,0 +1,50 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 1400px;
+    margin: 0 auto;
+}
+
+
+.first img{
+    width: 150px;  
+}
+.middle button{
+    background-color:#2196F3;
+}
+.middle{
+    display: flex; 
+    align-items: center; 
+    text-align: center;
+}
+.middle li{
+    cursor: pointer;
+    font-size: 17px;
+    list-style: none;
+    margin: 0 30px;
+    display: inline-block;
+    font-weight: 600;
+    
+}
+.last{
+    display: flex;
+   margin: 0 10px;
+   cursor: pointer;
+}
+.middle li:hover .items{
+     display: flex;
+}
+.middle li:hover{
+    color: blue;
+}
+.last > .MuiSvgIcon-root:hover{
+     background-color: lightgray;
+}
+.last > .MuiSvgIcon-root{
+    color: gray;
+    font-size: 27px;
+    padding: 3px;
+    border-radius: 50%;
+}

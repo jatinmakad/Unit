@@ -1,0 +1,22 @@
+.tab{
+    height: 470px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align:center;
+    align-items: center;
+    background-color: rgb(245,245,245);
+    padding: 10px;
+}
+.tab img{
+    width: 50%;
+}
+.bt button{
+    margin-right: 5px;
+    background-color: #2196F3;
+}
+.bt > Button{
+    font-size: 11px;
+
+}

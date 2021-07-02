@@ -1,0 +1,22 @@
+.card{
+    width: 280px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align:start;
+    padding: 30px;
+}
+.card h1{
+    font-size: 20px;
+}
+.card p{
+    color: gray;
+}
+.card button{
+   border: none;
+   background-color: white;
+   color: blue;
+   font-size: 18px;
+}
