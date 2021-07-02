@@ -8,7 +8,7 @@ function Swit() {
   );
   useEffect(() => {
     setGround(ground);
-  });
+  },[ground]);
 
   const myStyle = {
     backgroundImage: `url(${ground})`,
